@@ -2,6 +2,7 @@
 const SUPABASE_URL = 'https://sogguvzsujmjopnbyyuh.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNvZ2d1dnpzdWptam9wbmJ5eXVoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ5NzEzMDYsImV4cCI6MjA5MDU0NzMwNn0.P4R0EHgZSmK1cz95KSDhmLMbqL062snenQAySNlgQ1Q ';
 
+const { createClient } = supabase;
 const supabase = Supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 class FinancialApp {
